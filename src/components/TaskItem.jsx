@@ -19,7 +19,7 @@ const TaskItem = ({ task }) => {
     <div className="flex flex-col md:flex-row items-center justify-between bg-gray-800 p-2 rounded mt-2">
       <span
         className={`${
-          task.status === 'completed' ? 'line-through' : ''
+          task.status === 'completed' ? 'line-through text-red-700  ' : ''
         } mr-4 mb-2 md:mb-0`}
       >
         {task.title}
